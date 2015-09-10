@@ -1,0 +1,15 @@
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\CsvFormatterSample.dll.config
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\CsvFormatterSample.dll
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\CsvFormatterSample.pdb
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\CsvHelper.dll
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\FileHelpers.dll
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\CsvHelper.pdb
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\CsvHelper.xml
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\FileHelpers.xml
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\obj\Debug\Parser.csprojResolveAssemblyReference.cache
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\obj\Debug\CsvFormatterSample.dll
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\obj\Debug\CsvFormatterSample.pdb
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\InvoiceTaxCalculator.dll
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\Model.dll
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\InvoiceTaxCalculator.pdb
+D:\BabajobSamplesOm\BabajobSamples\CsvFormatterSample\bin\Debug\Model.pdb
