@@ -13,7 +13,7 @@ namespace InvoiceTaxCalculator.InternationalInvoice
 
         public override TaxModel[] RetrieveResults(FileHelperModel[] file)
         {
-            TaxModel[] domesticList = file.Where(s => s.EmpId.StartsWith("D"))
+            TaxModel[] domesticList = file.Where(s => s.EmpId.StartsWith("I"))
                 .Select(l => new TaxModel() { DateTime = l.DateTime, Id = l.Id, EmpId = l.EmpId, Invoice = l.Invoice, ServiceTax = 0, EducationalCess = 0, ForeignRemittanceTax = 0 })
                 .ToArray();
 
