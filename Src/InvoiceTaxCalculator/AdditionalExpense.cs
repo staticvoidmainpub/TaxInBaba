@@ -1,8 +1,9 @@
 ﻿using InvoiceTaxCalculator.DomesticInvoice;
+using InvoiceTaxCalculator.InternationalInvoice;
 
 namespace InvoiceTaxCalculator
 {
-    public abstract class AdditionalExpense : GetDomesticInvoice
+    public abstract class AdditionalExpense 
     {
         protected GetDomesticInvoice GetInvoiceObj { get; set; }
 
