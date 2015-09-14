@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="FileHelperModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaxModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

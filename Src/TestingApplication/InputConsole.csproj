@@ -53,6 +53,10 @@
       <Project>{8210dc58-89fd-4a71-9146-16c4fb5f85ab}</Project>
       <Name>Parser</Name>
     </ProjectReference>
+    <ProjectReference Include="..\InvoiceTaxCalculator\InvoiceTaxCalculator.csproj">
+      <Project>{a42acf0c-2d15-4b6a-b46e-cd160c93ed73}</Project>
+      <Name>InvoiceTaxCalculator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{5d9f8e24-86b4-40aa-bb72-41c58d43c3c9}</Project>
       <Name>Model</Name>

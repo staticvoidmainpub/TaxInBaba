@@ -7,3 +7,12 @@ D:\BabajobSamplesOm\BabajobSamples\InvoiceTaxCalculator\bin\Debug\Model.pdb
 D:\BabajobSamplesOm\BabajobSamples\InvoiceTaxCalculator\bin\Debug\FileHelpers.xml
 D:\BabajobSamplesOm\BabajobSamples\InvoiceTaxCalculator\obj\Debug\InvoiceTaxCalculator.dll
 D:\BabajobSamplesOm\BabajobSamples\InvoiceTaxCalculator\obj\Debug\InvoiceTaxCalculator.pdb
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\bin\Debug\InvoiceTaxCalculator.dll
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\bin\Debug\InvoiceTaxCalculator.pdb
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\bin\Debug\Model.dll
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\bin\Debug\FileHelpers.dll
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\bin\Debug\Model.pdb
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\bin\Debug\FileHelpers.xml
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\obj\Debug\InvoiceTaxCalculator.csprojResolveAssemblyReference.cache
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\obj\Debug\InvoiceTaxCalculator.dll
+D:\github\TaxInBaba\Src\InvoiceTaxCalculator\obj\Debug\InvoiceTaxCalculator.pdb

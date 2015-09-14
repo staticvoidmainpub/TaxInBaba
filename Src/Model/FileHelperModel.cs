@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FileHelpers;
 
-
-namespace FormatterSample
+namespace Model
 {
     [DelimitedRecord(", ")]
     public class FileHelperModel
@@ -19,5 +14,6 @@ namespace FormatterSample
         public DateTime DateTime;
 
         public double Invoice;
+
     }
 }

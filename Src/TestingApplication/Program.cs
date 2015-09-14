@@ -4,18 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FormatterSample;
+using FormatterSample.Parser;
+using InvoiceTaxCalculator;
 
 namespace TestingApplication
 {
-    class Program
+    class Program 
     {
-        public static string filepath { get; set; }
+        public static string Filepath { get; set; }
 
         static void Main(string[] args)
         {
-            Parser csvform=new Parser();
-            filepath = args[0];
-            csvform.ParseToList(filepath);
+            var parser=new Parser(new TaxCalculatorFactory());
+
+            Filepath = args[0];
+            parser.ParseToList(Filepath);
 
             //foreach (FileHelperModel VARIABLE in variable)
             //{
@@ -24,6 +27,5 @@ namespace TestingApplication
             Console.ReadLine();
         }
 
-        
     }
 }

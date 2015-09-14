@@ -1,24 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using CsvHelper;
-using FileHelpers;
+﻿using FileHelpers;
 using InvoiceTaxCalculator;
+using Model;
 
-
-namespace FormatterSample
+namespace FormatterSample.Parser
 {
     public class Parser : IParser
     {
-        GetValueFromParser getvalue=new GetValueFromParser();
+        public ITaxCalculatorFactory ItaxCalculatiorFactory;
+
+        public Parser(ITaxCalculatorFactory itaxCalculatorFactory)
+        {
+            this.ItaxCalculatiorFactory = itaxCalculatorFactory;
+        }
+        
         public void ParseToList(string filepath)
         {
             var engine = new FileHelperEngine<FileHelperModel>();
-            getvalue.RetrieveResults(engine.ReadFile(filepath));
+            ItaxCalculatiorFactory.CreateInstance(engine.ReadFile(filepath));
         }
 
     }

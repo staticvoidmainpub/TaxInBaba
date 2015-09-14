@@ -5,3 +5,10 @@ D:\BabajobSamplesOm\BabajobSamples\Model\bin\Debug\FileHelpers.xml
 D:\BabajobSamplesOm\BabajobSamples\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 D:\BabajobSamplesOm\BabajobSamples\Model\obj\Debug\Model.dll
 D:\BabajobSamplesOm\BabajobSamples\Model\obj\Debug\Model.pdb
+D:\github\TaxInBaba\Src\Model\bin\Debug\Model.dll
+D:\github\TaxInBaba\Src\Model\bin\Debug\Model.pdb
+D:\github\TaxInBaba\Src\Model\bin\Debug\FileHelpers.dll
+D:\github\TaxInBaba\Src\Model\bin\Debug\FileHelpers.xml
+D:\github\TaxInBaba\Src\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\github\TaxInBaba\Src\Model\obj\Debug\Model.dll
+D:\github\TaxInBaba\Src\Model\obj\Debug\Model.pdb
