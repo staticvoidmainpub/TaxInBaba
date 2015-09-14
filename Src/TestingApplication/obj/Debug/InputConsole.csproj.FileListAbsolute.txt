@@ -12,17 +12,3 @@ D:\BabajobSamplesOm\BabajobSamples\TestingApplication\bin\Debug\Model.dll
 D:\BabajobSamplesOm\BabajobSamples\TestingApplication\bin\Debug\InvoiceTaxCalculator.dll
 D:\BabajobSamplesOm\BabajobSamples\TestingApplication\bin\Debug\Model.pdb
 D:\BabajobSamplesOm\BabajobSamples\TestingApplication\bin\Debug\InvoiceTaxCalculator.pdb
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\TestingApplication.exe.config
-D:\github\TaxInBaba\Src\TestingApplication\obj\Debug\TestingApplication.exe
-D:\github\TaxInBaba\Src\TestingApplication\obj\Debug\TestingApplication.pdb
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\TestingApplication.exe
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\TestingApplication.pdb
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\CsvFormatterSample.dll
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\Model.dll
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\InvoiceTaxCalculator.dll
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\FileHelpers.dll
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\CsvFormatterSample.pdb
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\Model.pdb
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\InvoiceTaxCalculator.pdb
-D:\github\TaxInBaba\Src\TestingApplication\bin\Debug\FileHelpers.xml
-D:\github\TaxInBaba\Src\TestingApplication\obj\Debug\InputConsole.csprojResolveAssemblyReference.cache
