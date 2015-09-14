@@ -9,9 +9,11 @@ namespace InvoiceTaxCalculator.InternationalInvoice
 {
     public class ForeignRemittanceTax
     {
-        public FileHelperModel[] RetrieveResults(FileHelperModel[] file)
+        public TaxModel[] RetrieveResults(TaxModel[] file)
         {
-            return file.Select(l => new FileHelperModel() { DateTime = l.DateTime, Invoice = (l.Invoice * 1.05), EmpId = null, Id = (int)0 }).ToArray();
+            return file
+                .Select(l => new TaxModel() { DateTime = l.DateTime, Invoice = (l.Invoice), EmpId = null, Id = (int)0,ServiceTax = (int)0,EducationalCess = (int)0,ForeignRemittanceTax = (l.Invoice*0.05)})
+                .ToArray();
         }
     }
 }

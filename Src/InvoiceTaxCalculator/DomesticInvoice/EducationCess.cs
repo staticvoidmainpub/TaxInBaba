@@ -9,9 +9,11 @@ namespace InvoiceTaxCalculator.DomesticInvoice
 {
     public class EducationCess
     {
-        public FileHelperModel[] RetrieveResults(FileHelperModel[] file)
+        public TaxModel[] RetrieveResults(TaxModel[] file)
         {
-            return file.Select(l => new FileHelperModel() { DateTime = l.DateTime, Invoice = (l.Invoice * 1.03), EmpId = null, Id = (int)0 }).ToArray();
+            return file
+                .Select(l => new TaxModel() { DateTime = l.DateTime, Invoice = l.Invoice, EmpId = null, Id = (int)0,ServiceTax = l.ServiceTax,EducationalCess = (l.EducationalCess*0.03),ForeignRemittanceTax = (int)0})
+                .ToArray();
         }
     }
 }
