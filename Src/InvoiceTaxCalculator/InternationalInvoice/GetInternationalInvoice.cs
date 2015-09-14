@@ -7,7 +7,7 @@ using Model;
 
 namespace InvoiceTaxCalculator.InternationalInvoice
 {
-    class GetInternationalInvoice : BaseTax
+    public class GetInternationalInvoice : BaseTax
     {
         readonly ForeignRemittanceTax _foreignRemittanceTax = new ForeignRemittanceTax();
 

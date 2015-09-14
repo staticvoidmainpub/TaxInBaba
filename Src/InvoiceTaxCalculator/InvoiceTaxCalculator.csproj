@@ -49,6 +49,7 @@
     <Compile Include="TaxCalculatorFactory.cs" />
     <Compile Include="InternationalInvoice\GetInternationalInvoice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaxSummary.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">
