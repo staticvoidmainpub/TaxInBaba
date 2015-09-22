@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "CsvFormatterSample\Parser.csproj", "{8210DC58-89FD-4A71-9146-16C4FB5F85AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputConsole", "TestingApplication\InputConsole.csproj", "{814CCC12-BB6E-46FC-A500-4D3F901531ED}"
@@ -8,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceTaxCalculator", "InvoiceTaxCalculator\InvoiceTaxCalculator.csproj", "{A42ACF0C-2D15-4B6A-B46E-CD160C93ED73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{5D9F8E24-86B4-40AA-BB72-41C58D43C3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{487D28E5-9620-47F5-AB90-A5EB60273343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceTaxCalculator.Tests", "InvoiceTaxCalculator.Tests\InvoiceTaxCalculator.Tests.csproj", "{FC27C7CC-EC58-49D6-8552-EEC5D54C122C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,8 +37,15 @@ Global
 		{5D9F8E24-86B4-40AA-BB72-41C58D43C3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9F8E24-86B4-40AA-BB72-41C58D43C3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9F8E24-86B4-40AA-BB72-41C58D43C3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC27C7CC-EC58-49D6-8552-EEC5D54C122C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC27C7CC-EC58-49D6-8552-EEC5D54C122C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC27C7CC-EC58-49D6-8552-EEC5D54C122C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC27C7CC-EC58-49D6-8552-EEC5D54C122C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC27C7CC-EC58-49D6-8552-EEC5D54C122C} = {487D28E5-9620-47F5-AB90-A5EB60273343}
 	EndGlobalSection
 EndGlobal

@@ -9,11 +9,11 @@ using Model;
 
 namespace InvoiceTaxCalculator.DomesticInvoice
 {
-    public class GetDomesticInvoice : BaseTax
+    public class GetDomesticInvoice
     {
         readonly ServiceTax _serviceTax=new ServiceTax();
 
-        public override TaxModel[] RetrieveResults(FileHelperModel[] file)
+        public TaxModel[] RetrieveResults(FileHelperModel[] file)
         {
             TaxModel[] domesticList = file.Where(s => s.EmpId.StartsWith("D"))
                 .Select(l=> new TaxModel(){DateTime = l.DateTime,Id = l.Id,EmpId = l.EmpId,Invoice = l.Invoice,ServiceTax = 0, EducationalCess = 0, ForeignRemittanceTax = 0})

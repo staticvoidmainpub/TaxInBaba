@@ -7,9 +7,10 @@ using Model;
 
 namespace InvoiceTaxCalculator
 {
-    public abstract class BaseTax
+    public interface ITaxSummary
     {
-        public abstract TaxModel[] RetrieveResults(FileHelperModel[] file);
+        TaxModel[] SumArrays(OutputModel[] taxModels);
 
+        
     }
 }

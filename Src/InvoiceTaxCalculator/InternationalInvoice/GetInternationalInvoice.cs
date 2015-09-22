@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using InvoiceTaxCalculator.DomesticInvoice;
 using Model;
 
 namespace InvoiceTaxCalculator.InternationalInvoice
 {
-    public class GetInternationalInvoice : BaseTax
+    public class GetInternationalInvoice 
     {
         readonly ForeignRemittanceTax _foreignRemittanceTax = new ForeignRemittanceTax();
 
-        public override TaxModel[] RetrieveResults(FileHelperModel[] file)
+        GetDomesticInvoice domesticInvoice=new GetDomesticInvoice();
+
+        public TaxModel[] RetrieveResults(FileHelperModel[] file)
         {
+            var taxModels=domesticInvoice.RetrieveResults(file);
             TaxModel[] domesticList = file.Where(s => s.EmpId.StartsWith("I"))
                 .Select(l => new TaxModel() { DateTime = l.DateTime, Id = l.Id, EmpId = l.EmpId, Invoice = l.Invoice, ServiceTax = 0, EducationalCess = 0, ForeignRemittanceTax = 0 })
                 .ToArray();
@@ -41,7 +45,7 @@ namespace InvoiceTaxCalculator.InternationalInvoice
                             ServiceTax = (int)0,
                             EducationalCess = (int)0
                         }).ToArray();
-            return _foreignRemittanceTax.RetrieveResults(domesticList);
+            return _foreignRemittanceTax.RetrieveResults(domesticList,taxModels);
         }
     }
 }

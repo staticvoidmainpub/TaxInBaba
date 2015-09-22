@@ -1,4 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="D:\BabajobSamplesOm\BabajobSamples\packages\CsvHelper.2.13.2.0\lib\net20\CsvHelper.dll" /&gt;&#xD;
-&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8D1F4DEFD737469683D99FD6C0FFD0BB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8D1F4DEFD737469683D99FD6C0FFD0BB/Name/@EntryValue">TestServiceTaxCalculation</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8D1F4DEFD737469683D99FD6C0FFD0BB/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="nUnit" Id="InvoiceTaxCalculator.Tests.InvoiceTaxCalculatorTests" type="NUnitTestFixtureElement" Project="FC27C7CC-EC58-49D6-8552-EEC5D54C122C" /&gt;&lt;UnitTestElement Provider="nUnit" Id="InvoiceTaxCalculator.Tests.InvoiceTaxCalculatorTests.TestServiceTaxCalculation" ParentId="InvoiceTaxCalculator.Tests.InvoiceTaxCalculatorTests" type="NUnitTestElement" TypeName="InvoiceTaxCalculator.Tests.InvoiceTaxCalculatorTests" MethodName="TestServiceTaxCalculation" Project="FC27C7CC-EC58-49D6-8552-EEC5D54C122C" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String></wpf:ResourceDictionary>

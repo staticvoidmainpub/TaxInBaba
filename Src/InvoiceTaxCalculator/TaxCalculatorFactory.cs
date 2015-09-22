@@ -13,9 +13,6 @@ namespace InvoiceTaxCalculator
     {
         public void CreateInstance(FileHelperModel[] file)
         {
-            var getDomesticInvoice=new GetDomesticInvoice();
-            getDomesticInvoice.RetrieveResults(file);
-            
             var getInternationalInvoice=new GetInternationalInvoice();
             getInternationalInvoice.RetrieveResults(file);
         }

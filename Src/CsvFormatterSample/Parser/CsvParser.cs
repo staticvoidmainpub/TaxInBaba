@@ -1,4 +1,5 @@
-﻿using FileHelpers;
+﻿using System;
+using FileHelpers;
 using InvoiceTaxCalculator;
 using Model;
 
@@ -15,8 +16,16 @@ namespace FormatterSample.Parser
         
         public void ParseToList(string filepath)
         {
-            var engine = new FileHelperEngine<FileHelperModel>();
-            ItaxCalculatiorFactory.CreateInstance(engine.ReadFile(filepath));
+            try
+            {
+                var engine = new FileHelperEngine<FileHelperModel>();
+                ItaxCalculatiorFactory.CreateInstance(engine.ReadFile(filepath));
+            }
+            catch (System.Exception ex)
+            {
+                
+                Console.WriteLine("{0}",ex.Message);
+            }
         }
 
     }

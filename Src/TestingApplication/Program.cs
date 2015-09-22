@@ -12,7 +12,6 @@ namespace TestingApplication
     class Program 
     {
         public static string Filepath { get; set; }
-
         static void Main(string[] args)
         {
             var parser=new Parser(new TaxCalculatorFactory());
@@ -20,10 +19,6 @@ namespace TestingApplication
             Filepath = args[0];
             parser.ParseToList(Filepath);
 
-            //foreach (FileHelperModel VARIABLE in variable)
-            //{
-            //    Console.WriteLine("{0} {1} {2} {3}",VARIABLE.Id,VARIABLE.DateTime,VARIABLE.EmpId,VARIABLE.Invoice);
-            //}
             Console.ReadLine();
         }
 

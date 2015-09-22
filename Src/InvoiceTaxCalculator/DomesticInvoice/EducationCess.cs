@@ -11,10 +11,19 @@ namespace InvoiceTaxCalculator.DomesticInvoice
     {
         public TaxModel[] RetrieveResults(TaxModel[] file)
         {
-            var s= file
-                .Select(l => new TaxModel() { DateTime = l.DateTime, Invoice = l.Invoice, EmpId = null, Id = (int)0,ServiceTax = l.ServiceTax,EducationalCess = (l.Invoice*0.03),ForeignRemittanceTax = (int)0})
-                .ToArray();
-            return s;
+            return file
+                .Select(
+                    l =>
+                        new TaxModel()
+                        {
+                            DateTime = l.DateTime,
+                            Invoice = l.Invoice,
+                            EmpId = null,
+                            Id = (int) 0,
+                            ServiceTax = l.ServiceTax,
+                            EducationalCess = (l.ServiceTax*0.03),
+                            ForeignRemittanceTax = (int) 0
+                        }).ToArray();
         }
     }
 }

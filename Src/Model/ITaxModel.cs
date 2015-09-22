@@ -1,14 +1,14 @@
-﻿﻿using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FileHelpers;
 
 namespace Model
 {
-    public class TaxModel
+    public abstract class BaseTaxModel
     {
+
         public Int32 Id;
 
         public String EmpId;
@@ -16,13 +16,5 @@ namespace Model
         public DateTime DateTime;
 
         public double Invoice;
-
-        public double ServiceTax;
-
-        public double EducationalCess;
-
-        public double ForeignRemittanceTax;
-
-
     }
 }
