@@ -4,6 +4,6 @@
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>D:\BabajobSamplesOm\BabajobSamples\TestingApplication\Csv\invoice_details.csv</StartArguments>
+    <StartArguments>D:\github\TaxInBaba\Src\TestingApplication\Csv\invoice_details.csv</StartArguments>
   </PropertyGroup>
 </Project>

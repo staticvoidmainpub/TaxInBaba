@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A42ACF0C-2D15-4B6A-B46E-CD160C93ED73}</ProjectGuid>
+    <ProjectGuid>{FC27C7CC-EC58-49D6-8552-EEC5D54C122C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InvoiceTaxCalculator</RootNamespace>
-    <AssemblyName>InvoiceTaxCalculator</AssemblyName>
+    <RootNamespace>InvoiceTaxCalculator.Tests</RootNamespace>
+    <AssemblyName>InvoiceTaxCalculator.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,18 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DomesticInvoice\EducationCess.cs" />
-    <Compile Include="DomesticInvoice\GetDomesticInvoice.cs" />
-    <Compile Include="DomesticInvoice\ServiceTax.cs" />
-    <Compile Include="InternationalInvoice\ForeignRemittanceTax.cs" />
-    <Compile Include="ITaxCalculatorFactory.cs" />
-    <Compile Include="ITaxSummary.cs" />
-    <Compile Include="TaxCalculatorFactory.cs" />
-    <Compile Include="InternationalInvoice\GetInternationalInvoice.cs" />
+    <Compile Include="InvoiceTaxCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaxSummary.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InvoiceTaxCalculator\InvoiceTaxCalculator.csproj">
+      <Project>{a42acf0c-2d15-4b6a-b46e-cd160c93ed73}</Project>
+      <Name>InvoiceTaxCalculator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{5d9f8e24-86b4-40aa-bb72-41c58d43c3c9}</Project>
       <Name>Model</Name>
